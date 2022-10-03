@@ -1,10 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   
 }
 
-/*sets the size of the body*/
 body{
     margin: 40px auto;
     font-family: monospace;
@@ -16,7 +13,7 @@ body{
     font-size :20px;
 }
 h1 {
-    text-align:center
+    text-align: left
 }
 
 nav {
@@ -36,7 +33,7 @@ li {
 }
 
 #me {
-    border-radius: 25px 25px 25px 0px;
+    border-radius: 22px 22px 22px 0px;
     float: left;
     width: 200px;
 }
@@ -62,3 +59,4 @@ p {
     width: 900px;
 
 }
+
