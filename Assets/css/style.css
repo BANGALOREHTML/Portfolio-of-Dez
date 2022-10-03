@@ -22,7 +22,7 @@ h1 {
 nav {
     height: 50px;
     margin: 20px;
-    border: 3px solid #41c81f;
+    
     padding: 10px;
     border-radius: 10px;
 }
@@ -54,10 +54,11 @@ p {
 }
 
 #project-1 {
-    border: 3px solid #41c81f;
-    border-radius: 10px;
+    border: 5px solid #181d17;
+    border-radius: 25px 25px 0px 25px;
     margin: 20px;
-    padding: 10px;
+    padding: 0px;
+    text-underline-offset: 10px;
     width: 900px;
-    
+
 }
