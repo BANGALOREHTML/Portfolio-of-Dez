@@ -7,7 +7,7 @@
 /*sets the size of the body*/
 body{
     margin: 40px auto;
-    font-family: sans-serif;
+    font-family: monospace;
     display: flex;
     max-width: 1080px;
     background-color: cornsilk;
@@ -36,7 +36,7 @@ li {
 }
 
 #me {
-    border-radius: 40px;
+    border-radius: 25px 25px 25px 0px;
     float: left;
     width: 200px;
 }
@@ -49,5 +49,15 @@ section {
 }
 
 p {
-    padding: 10px, 0, 10px, 0;
+    padding: 80px, 0, 10px, 0;
+    margin: 35px
+}
+
+#project-1 {
+    border: 3px solid #41c81f;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    width: 900px;
+    
 }
