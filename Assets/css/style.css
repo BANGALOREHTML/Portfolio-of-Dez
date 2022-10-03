@@ -1,3 +1,53 @@
-.introduction {
-    background-color: cornsilk
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*sets the size of the body*/
+body{
+    margin: 40px auto;
+    font-family: sans-serif;
+    display: flex;
+    max-width: 1080px;
+    background-color: cornsilk;
+    font-family: monospace ;
+    font-style: bold;
+    font-size :20px;
+}
+h1 {
+    text-align:center
+}
+
+nav {
+    height: 50px;
+    margin: 20px;
+    border: 3px solid #41c81f;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+
+#me {
+    border-radius: 40px;
+    float: left;
+    width: 200px;
+}
+
+section {
+    width: 800;
+    /* height: 200px; */
+    margin: 10px;
+    padding: 10px;
+}
+
+p {
+    padding: 10px, 0, 10px, 0;
 }
