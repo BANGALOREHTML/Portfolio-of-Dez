@@ -1,8 +1,8 @@
-*{
+* {
    
 }
 
-body{
+body {
     margin: 40px auto;
     font-family: monospace;
     display: flex;
@@ -19,9 +19,9 @@ h1 {
 nav {
     height: 50px;
     margin: 20px;
-    
     padding: 10px;
     border-radius: 10px;
+    float: center;
 }
 
 li {
@@ -36,11 +36,11 @@ li {
     border-radius: 22px 22px 22px 0px;
     float: left;
     width: 200px;
+    margin-right: 80px;
 }
 
 section {
     width: 800;
-    /* height: 200px; */
     margin: 10px;
     padding: 10px;
 }
@@ -59,4 +59,3 @@ p {
     width: 900px;
 
 }
-
